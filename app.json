@@ -7,7 +7,7 @@
     "PHP"
   ],
   "website": "https://getstream.io/",
-  "repository": "https://github.com/GetStream/stream-example-php",
+  "repository": "https://github.com/peachepe/stream-laravel-5-example",
   "logo": "http://33.media.tumblr.com/avatar_be8b5eef9ae6_128.png",
   "success_url": "/",
   "addons": [
