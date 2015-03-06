@@ -5,6 +5,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
+		"php": ">=5.4.0",
 		"laravel/framework": "5.0.*",
 		"get-stream/stream": "2.1.0"
 	},
