@@ -1,22 +1,20 @@
 {
-  "name": "Stream Example App",
-  "description": "Pinterest esque example app using GetStream.io",
-  "keywords": [
-    "getstream.io",
-    "HTML5",
-    "PHP"
-  ],
-  "website": "https://getstream.io/",
-  "repository": "https://github.com/peachepe/stream-laravel-5-example",
-  "logo": "http://33.media.tumblr.com/avatar_be8b5eef9ae6_128.png",
-  "success_url": "/",
-  "addons": [
-    "stream", "heroku-postgresql"
-  ],
-  "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php"
-  },
-  "scripts": {
-    "postdeploy": "./provision.sh"
-  }
+    "name": "Stream Example App",
+    "description": "Pinterest esque example app using GetStream.io",
+    "website": "https://getstream.io/",
+    "repository": "https://github.com/peachepe/stream-laravel-5-example",
+    "logo": "http://33.media.tumblr.com/avatar_be8b5eef9ae6_128.png",
+    "success_url": "/",
+    "keywords": [
+        "getstream.io",
+        "HTML5",
+        "PHP"
+    ],
+    "addons": [
+        "stream",
+        "heroku-postgresql"
+    ],
+    "env": {
+        "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php"
+    }
 }
