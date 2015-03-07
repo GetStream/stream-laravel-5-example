@@ -8,4 +8,5 @@ composer.phar
 .DS_Store
 Thumbs.db
 .vagrant*
-/storage
+/storage/framework
+/storage/logs
