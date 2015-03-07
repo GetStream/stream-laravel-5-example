@@ -4,6 +4,10 @@ use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use \User;
+use \Follow;
+use \FeedManager;
+use \Redirect;
+use \Input;
 
 class FollowAdminCommand extends Command {
 

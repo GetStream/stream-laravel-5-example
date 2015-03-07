@@ -145,6 +145,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		'Illuminate\Html\HtmlServiceProvider',
+		'GetStream\StreamLaravel\StreamLaravelServiceProvider'
 	],
 
 	/*
@@ -193,6 +195,8 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 
+		'Form' => 'Illuminate\Html\FormFacade', 'HTML'=> 'Illuminate\Html\HtmlFacade',
+		'FeedManager' => 'GetStream\StreamLaravel\Facades\FeedManager'
 	],
 
 ];
