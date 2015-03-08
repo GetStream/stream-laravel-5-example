@@ -4,15 +4,9 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
-	"repositories": [
-	    {
-	        "type":"vcs",
-	        "url":"https://github.com/peachepe/stream-laravel.git"
-	    }
-	],
 	"require": {
 		"laravel/framework": "5.0.*",
-		"get-stream/stream-laravel": "2.1.4",
+		"get-stream/stream-laravel": "2.2",
 		"illuminate/html": "5.*"
 	},
 	"require-dev": {
