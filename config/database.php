@@ -1,5 +1,19 @@
 <?php
 
+$url = getenv("DATABASE_URL");
+if ($url !== false) {
+	$url = parse_url($url);
+	$host = $url["host"];
+	$username = $url["user"];
+	$password = $url["pass"];
+	$database = substr($url["path"], 1);
+} else {
+	$host = env('DB_HOST', 'localhost');
+	$username = env('DB_USERNAME', 'forge');
+	$password = env('DB_PASSWORD', '');
+	$database = env('DB_DATABASE', 'forge');
+}
+
 return [
 
 	/*
